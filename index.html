@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T04-2: D3 Element Manipulation</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>T04-3: D3 Bar Chart Setup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -25,14 +25,22 @@
         <div id="content"></div>
 
         <svg width="300" height="150"></svg>
+
+        <!-- NEW: Container for T04-3 chart -->
+        <div class="responsive-svg-container"></div>
     </main>
 
     <footer>
         <p>&copy; 2025 Your Name</p>
     </footer>
 
-    <!-- D3 library and local script -->
+    <!-- D3 library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="energy-d3.js"></script>
+
+    <!-- NEW: JS for T04-3 only -->
+    <script src="t04-3-bars.js"></script>
+
+    <!-- Old T04-2 demo (temporarily disabled) -->
+    <!-- <script src="energy-d3.js"></script> -->
 </body>
 </html>
